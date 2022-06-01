@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<h1 id="title">Survey Form</h1>
+<h2 id="description">Placement Survey Form</h2>
+<form id="survey-form">
+    <div class="form-group">
+        <p>
+            <label id="name-label">Name:
+                <input id="name" type="text" placeholder="Enter Your Name" required>
+            </label>
+        </p>
+    </div>
+    <div class="form-group">
+        <p>
+            <label id="email-label">Email:
+                <input id="email" type="email" placeholder="Enter Your E-mail Id" required>
+            </label>
+        </p>
+    </div>
+    <div class="form-group">
+        <p>
+            <label id="number-label">Year Of Passing:
+                <input id="number" type="number" min="2017" max="2024" placeholder="Year" required>
+            </label>
+        </p>
+    </div>
+    <div class="form-group">
+        <p>
+            In which of the following company have you applied? 
+        </p>
+        <select id="dropdown" name="Comapnies">
+            <option disabled selected value="select">Select</option>
+            <option value="HCL">HCL</option>
+            <option value="TCS">TCS</optiom>
+            <option value="Infosys">Infosys</option>
+            <option value="Wipro">Wipro</option>
+            <option value="Google">Google</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <p>
+            In which round of exam are you currently?
+        </p>
+        
+        <input name="user-answer" type="radio" value="aptitude-round">Aptitude-round</input>
+        <input name="user-answer" type="radio" value="coding-round">Coding-round</input>
+        <input name="user-answer" type="radio" value="interview-round">Interview-round</input>
+
+    </div>
+    <div class="form-group">
+        <p>
+            Which of the following programing language you know?
+        </p>
+        <input name="user-answer" type="checkbox" value="C++">C++</input>
+        <input name="user-answer" type="checkbox" value="Python">Python</input>
+        <input name="user-answer" type="checkbox" value="Java">Java</input>
+        <input name="user-answer" type="checkbox" value="HTML">HTML</input>
+        <input name="user-answer" type="checkbox" value="CSS">CSS</input>
+        <input name="user-answer" type="checkbox" value="Js">Js</input>
+
+    </div>
+    <div class="form-group">
+        <p>Any questions ?(Regarding Placement Examination)</p>
+        <textarea id="question" name="user-question"  class="input-textarea" placeholder="Enter your question"></textarea>
+    </div>
+    <div class="form-group">
+        <button id="submit" type="submit">Submit</button>
+    </div>
+    
+</form>
