@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-wdith, inital-scale=1.0"/>
+        <title>Technical Documentation Page</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        
+        <nav id="navbar">
+            <header class="main-header">HTML Documentation</header>
+            <ul>
+                <li><a class="nav-link" href="#introduction">Introduction</a></li>
+                <li><a class="nav-link" href="#html_elements">HTML Elements</a></li>
+                <li><a class="nav-link" href="#html_attributes">HTML Attributes</a></li>
+                <li><a class="nav-link" href="#html_classes">HTML Classes</a></li>
+                <li><a class="nav-link" href="#html_comments">HTML Comments</a></li>
+                <li><a class="nav-link" href="#html_api">HTML API</a></li>
+                <li><a class="nav-link" href="#html_media">HTML Media</a></li>
+
+            </ul>
+        </nav>
+        </header>    
+
+        
+        <main id="main-doc">
+            <section class="main-section" id="introduction">
+                <header>Introduction</header>
+                <code><article class="main-article">
+                    <code><p><strong>HTML</strong> stands for HyperText Markup Language.
+                        <code><ul>
+                            <code><li>It is used to design web pages using a markup language.</li>
+                            <li>HTML is the combination of Hypertext and Markup language.</li>
+                            <li>Hypertext defines the link between web pages.</li>
+                            <li>A markup language is used to define the text document within the tag which defines the structure of web pages.</li></code>
+                        </ul></code>
+                    </p></code>
+                </article></code>
+            </section>
+            <section class="main-section" id="html_elements">
+                <header>HTML Elements</header>
+                <code><article class="main-article">
+                    <code><p>The <strong>HTML elements</strong> consist of 3 parts :-
+                        <code><ul>
+                            <code><li>Opening tag(&lt;): It is used to tell the browser where the content material starts.</li>
+                            <li>Closing tag(&gt;): It is used to tell the browser where the content material ends.</li>
+                            <li>Content: It is the actual content material inside the opening and closing tag.</li></code>
+                        </ul></code>
+                    </p></code>
+                </article></code>
+            </section>
+            <section class="main-section" id="html_attributes">
+                <header>HTML Attributes</header>
+                <code><article class="main-article">
+                    <code><p><strong>HTML attributes </strong>provide additional information about the particular element.<br>
+                       It takes 2 parameters, i.e, a name & a value which define the properties of the element and are placed inside the element tag.<br>
+                       The name parameter takes the name of the property we would like to assign to the element and the value takes the properties value or extent of the property names that can be aligned over the element.<br>
+                       <code><strong>Note:- </strong>Every name has some value that must be written within quotes.<br>
+                               <strong>Syntax:</strong>
+                               <pre>
+                                &lt;element attribute_name=&quot;attribute_value&quot;&gt;&lt;/element&gt;
+                               </pre>
+                       </code>
+                    </p></code>
+                </article></code>
+            </section>
+            <section class="main-section" id="html_classes">
+                <header>HTML Classes</header>
+                <code><article class="main-article">
+                <code><p><strong>The HTML class</strong> is an attribute which specifies one or more class names for an HTML element.<br>
+                    The class attribute can be used on any HTML element.<br>
+                    The class name can be used by CSS and JavaScript to perform certain tasks for elements with the specified class name.</p><br></code>
+                </article></code>
+            </section>
+            <section class="main-section" id="html_comments">
+                <header>HTML Comments</header>
+                <code><article class="main-article">
+                    <code><p><strong>The HTML comment</strong> tag ( &lt;!-- Comment--&gt; ) is used to insert comments in the HTML code.<br>
+                               It is a good practice of coding, so that coder and the reader can get help to understand the code. It is useful to understand steps of the complex code.<br>
+                               The comment tag is helpful while the debugging of codes.
+                               It is a simple piece of code that is wiped off (ignore) by web browsers i.e. , not displayed by the browser.<br>
+                               It helps the coder and reader to understand the piece of code used for especially in complex source code.<br>
+                    <strong>Syntax :</strong><br>
+                    <pre>&lt;-- Comments here --&gt;</pre><br>
+                    Types of HTML Comments: There are three types of comments in HTML which are: 
+                    <ul>
+                        <li>Single-line comment</li>
+                        <li>Multi-lines comment</li>
+                    </ul>
+                    </p>
+                       
+                    </code>
+                    </article></code>
+            </section>
+            <section class="main-section" id="html_api">
+                <header>HTML API</header>
+                <code><article class="main-article">
+                    <code><p>
+                        Geo-location in HTML5 is used to share the location with some websites and be aware of the exact location.<br>
+                        It is mainly used for local businesses, restaurants, or showing locations on the map.<br>
+                        It uses JavaScript to give latitude and longitude to the backend server.<br>
+                        Most of the browsers support Geolocation API.<br>
+                        Geo-location API uses a global navigator object which can be created as follows:<br>
+                        <br>
+                        <strong>Syntax :</strong><br>
+                        var loc = navigator.geolocation
+                    </p></code>
+                </article></code>
+            </section>
+            <section class="main-section" id="html_media">
+                <header>HTML Media</header>
+                <code><article class="main-article">
+                <strong>Audio</strong>
+                <code><p>
+                    The Audio object is used for representing an HTML &lt;audio&gt; element.
+                        The Audio Object is a new object in HTML5.<br>
+                        
+                        <strong>Syntax:</strong><br>
+                        
+                        <strong>For creating an audio element:</strong><br>
+                        var gfg = document.createElement("AUDIO")<br>
+
+
+                        <strong>For accessing an audio element:</strong><br>
+                        var x = document.getElementById("myAudio")
+                </p></code>
+
+                <strong>Video</strong>
+                <code><p>
+                    The Video object in HTML DOM represents an &lt;video&gt; element. The video element can be accessed by using getElementById() method.<br>
+                    <strong>Syntax: </strong><br>
+                    <strong>To access a video object: </strong><br>
+
+                     document.getElementById("videoId");
+                     <br>
+                    where id is assigned to the &lt;video&gt; tag.<br>
+                    <br>
+                    <strong>To create a video object:</strong><br>
+                    document.createElement("VIDEO");
+
+                </p></code>
+                </article></code>
+            </section>
+        </main>
+    </body>
+</html>
